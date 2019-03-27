@@ -44,8 +44,6 @@
 - [Linear_system](Linear_system)
 - [Quiz](Quiz)
 
-
-
 ---
 
 
@@ -53,8 +51,8 @@
 ### Algorithm
 
 - [1.Algorithm.md](Algorithm/1.Algorithm.md) - 추상데이터 타입/ 시간복잡도/ 자료구조 표기방법
-
 - [2.Recursion.md](Algorithm/2.Recursion.md) - 거듭제곱값 계산/ 피보나치 수열/  하노이탑"
+- [3.Array.md](Algorithm/3.Array.md) - 배열 / 배열로 다항식 표현 / 다항식 덧셈
 
 ### Linear system
 
