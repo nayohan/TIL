@@ -1,23 +1,23 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node {
+typedef struct node {
 	int i;
 	struct node* next;
-};
-
+}node;
 struct node* head;
 
-void addToSLL(int _data) {
-	struct node* new_node = (struct node*)malloc(sizeof(struct node));
-	new_node->i = _data;
+void addToSLL(int _k) {
+	node* new_node = (node*)malloc(sizeof(node));
+	new_node->i = _k;
 	new_node->next = 0;
 
 	if (head == 0) {
 		head = new_node;
 	}
 	else {
-		struct node* cur = head;
+		node* cur = head;
 		while (cur->next != 0) {
 			cur = cur->next;
 		}
@@ -26,17 +26,18 @@ void addToSLL(int _data) {
 }
 
 void showSLL() {
-	struct node* cur = head;
-	while (cur != 0) {
+	node* cur = head;
+	while (cur->next != 0) {
 		printf("%d ", cur->i);
 		cur = cur->next;
 	}
+	printf("%d", cur->i);
 }
 
-struct node* findFromSLL(int _data) {
-	struct node* cur = head;
+struct node* findFromSLL(int _v) {
+	node* cur = head;
 	while (cur != 0) {
-		if (cur->i == _data) {
+		if (cur->i == _k) {
 			return cur;
 		}
 		cur = cur->next;
@@ -44,34 +45,32 @@ struct node* findFromSLL(int _data) {
 	return 0;
 }
 
-void delFromSLL(int _data) {
-	struct node* who = findFromSLL(_data);
-	struct node* cur = head;
-	//***********************
-	if (who == 0) {
+void delFromSLL(int _k) {
+	struct node* cur = findFromSLL(_k);
+	struct node* beforeCur = head;
+
+	if (cur == 0) {
 		return;
 	}
-	if (who == head) {
+	if (cur == head) {
 		head = head->next;
-		free(who);
+		free(cur);
 	}
-	//***********************
-	while (cur->next != who) {
-		cur = cur->next;
+	while (beforeCur->next != cur) {
+		beforeCur = beforeCur->next;
 	}
-	cur->next = who->next;
-	free(who);
+	beforeCur->next = cur->next;
+	free(cur);
 }
 
-void insertIntoSLL(int _whosnext, int _data) {
-	struct node* who = findFromSLL(_whosnext);
+void insertIntoSLL(int _v, int _k) {
+	struct node* who = findFromSLL(_v);
 	struct node* new_node = (struct node*)malloc(sizeof(struct node));
-	//***********************
+
 	if (who == 0) {
 		return;
 	}
-	//***********************
-	new_node->i = _data;
+	new_node->i = _k;
 	new_node->next = who->next;
 	who->next = new_node;
 }
@@ -85,11 +84,11 @@ void destroySLL() {
 }
 
 int main() {
-	int n, data, del;
+	int n, k, del;
 	scanf_s("%d ", &n);
 	for (int i = 0; i < n; i++) {
-		scanf_s("%d", &data);
-		addToSLL(data);
+		scanf_s("%d", &k);
+		addToSLL(k);
 	}
 	insertIntoSLL(2, 4);
 	delFromSLL(5);
