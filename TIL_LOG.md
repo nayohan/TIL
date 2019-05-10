@@ -2,8 +2,24 @@
 
 ------
 
+#### 5월 2주차 (10주차)
 
-#### 5월 1주차
+계획
+
+- [ ] 임기초 9주차 강의 듣기
+  - [ ] bus 종류 / timing / spec / 메모리 / xip / cpu / 파이프라인
+- [ ] 임기초 10주차 강의  듣기
+  - [ ] RLE 인코딩
+  - [ ] RLE 디코딩
+  - [ ] 파일 입출력
+- [ ] 임기초 프로젝트
+  - [ ] 계획서 초안 작성 (CNC, MNIST)
+  - [ ] 계획서 초안별 가능성 여부 검토
+- [ ] 데이터 구조 9주차
+  - [ ] BST delete 구현
+  - [ ] BST Traversal 구현
+
+#### 5월 1주차 (9주차)
 
 계획
 
@@ -12,7 +28,7 @@
   - [x] RLC / 논리회로 And / Or / Inverter
 - [ ] 임기초 9주차  강의 듣기
   - [x] 2bit Adder / IC / Register
-  - [ ] Register동작 / 종류 / Clock 
+  - [x] Register동작 / 종류 / Clock 
   - [ ] bus 종류 / timing / spec / 메모리 / xip / cpu / 파이프라인
 - [ ] 데이터구조 9주차
   - [x] Tree / BinaryTree / Binary Search Tree이론
@@ -20,7 +36,7 @@
   - [ ] BST delete 구현
   - [ ] BST Traversal 구현
 - [x] 선형시스템 SolarSystem(5/3(금))
-- [ ] 통계원리 과제 (5/7(화))
+- [x] 통계원리 과제 (5/7(화))
 - [x] 튜터링 보고서 작성
 
 ## 2019년 4월
