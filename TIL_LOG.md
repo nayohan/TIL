@@ -17,12 +17,15 @@
 - [ ] 임기초 프로젝트
   - [ ] 계획서 초안 작성 (사진편집 프로그램)
   - [ ] Win32 API 공부
-  - [ ] jpg to ppm 알아보기
+    - [x] 빈화면 출력
+    - [x] bmp이미지 출력
+  - [ ] jpg to bpm 알아보기
+    - [ ] libjpeg사용법
 - [ ] 선형시스템
   - [ ] conic sections 그리기
 - [ ] 데이터 구조 9주차
   - [ ] BST delete 구현
-  - [ ] BST Traversal 구현
+  - [x] BST Traversal 구현
 - [ ] 데이터 구조 10주차
   - [ ] BST기반 주소록 - 1
   - [ ] BST기반 주소록 - 2
