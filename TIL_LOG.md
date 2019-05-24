@@ -4,7 +4,7 @@
 
 
 
-#### 5월 3주차 (11주차)
+#### 5월 4주차 (12주차)
 
 계획
 
@@ -35,7 +35,8 @@
 
 - [ ] 선형시스템
 
-  - [ ] conic sections 그리기
+  - [x] conic sections 그리기
+  - [ ] Correlation coefficient그리기
 
 - [ ] 데이터 구조 10주차
 
@@ -48,7 +49,13 @@
   - [ ] 우선순위큐 -  Heapify 구현
   - [ ] 우선순위큐 -  Heap_추가
   - [ ] 우선순위큐 -  Heap_삭제
+- [x] 데이터 구조 12주차
 
+  - [x] 정렬 - 개요
+  - [x] BubbleSort - 이론 / 구현
+  - [x] SelectionSort - 이론 / 구현
+  - [x] InsertionSort - 이론 / 구현
+  
   
 
 #### 5월 3주차 (11주차)
