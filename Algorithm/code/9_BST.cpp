@@ -7,50 +7,67 @@ typedef struct node {
 	struct node* right;
 }node;
 node* root;
-
+node* createNewNode(int _v) {
+	struct node* new_node = (node*)malloc(sizeof(node));
+	new_node->i = _v;
+	new_node->left = new_node->right = NULL;
+	return new_node;
+}
 void addToBST(int _v) {
-	struct node* new_one = (node*)malloc(sizeof(node));
-	new_one->i = _v;
-	new_one->left = new_one->right = 0;
+	node* new_node = createNewNode(_v);
 
 	if (root == 0) {
-		root = new_one;
+		root = new_node;
 	}
 	else {
-		node* temp = root;
+		struct node* cur = root;
 		while (1) {
-			//왼쪽
-			if (new_one->i < temp->i) {
-				if (temp->left == 0) {
-					temp->left = new_one;
+			if (new_node->i > cur->i) {
+				if (cur->right == NULL) {
+					cur->right = new_node;
 					return;
 				}
 				else {
-					temp = temp->left;
+					cur = cur->right;
 				}
 			}
 			else {
-				if (temp->right == 0) {
-					temp->right = new_one;
+				if (cur->left == NULL) {
+					cur->left = new_node;
 					return;
 				}
 				else {
-					temp = temp->right;
+					cur = cur->left;
 				}
 			}
 		}
 	}
 }
-void searchBST(int _v) {
 
-}
-node* inorderTraversal(node* node) {//스택으로 구현가능
-	if (node == 0) {
-		return 0;
+void inorder(node* node) {
+	if (node == NULL) {
+		return;
 	}
-	inorderTraversal(node->left);
+	inorder(node->left);
 	printf("%d ", node->i);
-	inorderTraversal(node->right);
+	inorder(node->right);
+}
+int serachBST(int _v) {
+	struct node* cur = root;
+	while (1) {
+		if (cur == NULL) {
+			return NULL;
+		}
+		if (_v == cur->i) {
+			return 1;
+		}
+		if (_v > cur->i) {
+			cur = cur->right;
+		}
+		else {
+			cur = cur->left;
+		}
+	}
 }
 node* findLeast(node* node) {
 	struct node* cur = node;
@@ -59,12 +76,12 @@ node* findLeast(node* node) {
 	}
 	return cur;
 }
-node* remove_node(node* node, int _v) {
-	if (node == 0) {
-		return 0;
+node* removeNode(node* node, int _v) {
+	if (node == NULL) {
+		return NULL;
 	}
 	if (_v == node->i) {
-		if (node->left == 0 && node->right == 0) {
+		if ((node->left == 0) && (node->right == 0)) {
 			free(node);
 			return 0;
 		}
@@ -79,38 +96,31 @@ node* remove_node(node* node, int _v) {
 			return ret;
 		}
 		else {
-			struct node* toReplace = findLeast(node->right);
-			node->i = toReplace->i;
-			node->right = remove_node(node->right, toReplace->i);
+			struct node* replace = findLeast(node->right);
+			node->i = replace->i;
+			node->right = removeNode(node->right, replace->i);
 			return node;
 		}
 	}
-	else if (_v < node->i) {
-		node->left = remove_node(node->left, _v);
+	if (_v > node->i) {
+		node->right = removeNode(node->right, _v);
 		return node;
 	}
 	else {
-		node->right = remove_node(node->right, _v);
+		node->left = removeNode(node->left, _v);
 		return node;
 	}
 }
-
-
 int main() {
-	addToBST(20);
 	addToBST(10);
-	addToBST(15);
+	addToBST(5);
+	addToBST(30);
+	addToBST(20);
 	addToBST(40);
-
-	addToBST(60);
 	addToBST(35);
-
-	addToBST(55);
-	addToBST(65);
-
-	inorderTraversal(root);
+	addToBST(50);
+	inorder(root);
 	printf("\n");
-	remove_node(root, 40);
-	inorderTraversal(root);
-
+	removeNode(root, 30);
+	inorder(root);
 }
