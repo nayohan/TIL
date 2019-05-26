@@ -20,7 +20,7 @@
 
   - [ ] Win32 API 공부
   - [x] jpg to bmp 구현 -> openCV
-  - [ ] bmp to bmp 구현 -> 자체제작
+  - [x] bmp to bmp 구현 -> 자체제작
   - [ ] 기능 알고리즘
     - [ ] 반전
     - [ ] 회전
