@@ -19,20 +19,17 @@
 - [ ] 임기초 프로젝트
 
   - [ ] Win32 API 공부
-  - [ ] jpg to bpm 구현방법
-    - [ ] jpeg decoder 구현
-      - [ ] ①RGB 모델에서 YIQ 모델로 변환
-      - [ ] ② YIQ 의 매크로 블록(Macroblock)화
-      - [ ] ③ 매크로 블록을 8 * 8 블록화
-      - [ ] ④ DCT 변환 (Fourier Transform)
-      - [ ] ⑤ 양자화(Quantization)
-      - [ ] ⑥ 지그재그 스캐닝(Zig-zag Scanning)
-      - [ ] ⑦ 엔트로피 코딩(Entropy Coding)
+  - [x] jpg to bmp 구현 -> openCV
+  - [ ] bmp to bmp 구현 -> 자체제작
   - [ ] 기능 알고리즘
+    - [ ] 반전
     - [ ] 회전
+    - [ ] 확대/축소
+    - [ ] 회전
+    - [ ] 밝기/대비
     - [ ] 필터
   - [ ] 소스코드 모듈화
-
+  
 - [ ] 선형시스템
 
   - [x] conic sections 그리기
