@@ -24,7 +24,7 @@
   - [x] 콘솔에 bmp 출력
   - [ ] 기능 알고리즘
     - [x] 반전
-    - [ ] 회전
+    - [x] 회전
     - [x] 자르기
     - [ ] 밝기/대비
     - [ ] 필터
@@ -32,9 +32,12 @@
 - [ ] 선형시스템
 
   - [ ] Correlation coefficient그리기
+  - [x] EigenValue/EigenVector
+  - [ ] Determinant
+  - [ ] leslie Model
 - [ ] 데이터 구조 10주차
 
-  - [ ] BST기반 주소록 - 1
+  - [x] BST기반 주소록 - 1
   - [ ] BST기반 주소록 - 2
   - [ ] BST기반 주소록 - 3
 - [ ] 데이터 구조 11주차
