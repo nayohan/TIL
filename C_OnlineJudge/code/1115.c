@@ -16,7 +16,7 @@ void addToSLL(int _data) {
 	if (head == 0) {
 		head = new_node;
 	}
-	else {
+	else { 
 		struct node* cur = head;
 		while (cur->next != 0) {
 			cur = cur->next;
