@@ -18,9 +18,13 @@
 
   - [ ] Win32 API 공부
     - [x] bmp 출력
-    - [ ] 마우스 입력
-    - [ ] 스크롤바
-    - [ ] 버튼
+    - [x] 마우스 입력 -> 버튼연동
+    - [x] 스크롤바
+    - [x] 버튼 생성
+    - [x] bmp위치 중앙에 뜨기
+    - [x] 레이아웃L,R
+    - [ ] 폰트
+    - [ ] 이미지 사이즈 창화면에 맞게 조정
   - [x] 콘솔에 bmp 출력
   - [ ] 기능 알고리즘
     - [x] 반전
@@ -28,19 +32,22 @@
     - [x] 자르기
     - [ ] 밝기/대비
     - [ ] 필터
+    - [ ] (자르기)함수 연속 동작시 오류 수정
   - [x] 소스코드 모듈화
 - [ ] 선형시스템
 
   - [ ] Correlation coefficient그리기
   - [x] EigenValue/EigenVector
-  - [ ] Determinant
-  - [ ] leslie Model
+  - [x] Determinant
+  - [x] leslie Model
+  - [x] Stochastic Matrix
+  - [ ] 
 - [ ] 데이터 구조 10주차
 
   - [x] BST기반 주소록 - 1
   - [ ] BST기반 주소록 - 2
   - [ ] BST기반 주소록 - 3
-- [x] 데이터 구조 11주차
+- [x] ㄷ데이터 구조 11주차
 
   - [x] 우선순위큐 -  Heapify 구현
   - [x] 우선순위큐 -  Heap_추가
