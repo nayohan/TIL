@@ -41,7 +41,7 @@
   - [x] Determinant
   - [x] leslie Model
   - [x] Stochastic Matrix
-  - [ ] 
+  - [x] PCA
 - [ ] 데이터 구조 10주차
 
   - [x] BST기반 주소록 - 1
