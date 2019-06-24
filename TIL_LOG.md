@@ -1,8 +1,47 @@
-TIL
+# TIL
 
 ------
 
 
+
+### 6월 5주차(1주차)
+
+계획
+
+- [ ] Machine Learning
+  - [x] Introduction
+  - [ ] Linear Regression with One Variable
+  - [ ] Linear Algebra Review
+  - [ ] Linear Regression wiht Multiple Variable
+  - [ ] Matlab Tutorial
+  - [ ] Linear Regression
+  
+- [ ] 자료구조
+
+  - [ ] Recursion
+  - [ ] SLL
+  - [ ] DLL
+
+- [ ] 자바
+
+  - [x] 프로그래밍 언어와 자바
+  - [x] 이클립스 개발 환경 구축
+  - [x] 자바 프로그램 개발 과정
+  - [x] 변수
+  - [x] 기본 타입
+  - [ ] 타입 변환
+  - [ ] 변수와 시스템 입출력
+
+- [ ] 독서
+
+  - [ ] 너의 췌장을 먹고 싶어
+- [ ] 
+  
+  
+
+
+
+------
 
 #### 6월 1주차 (14주차)
 
@@ -14,6 +53,7 @@ TIL
   - [x] UART
   - [x] ADC
 - [ ] 임기초 9주차 강의 듣기
+  
   - [ ] bus 종류 / timing / spec / 메모리 / xip / cpu / 파이프라인
 - [ ] 임기초 과제
 
