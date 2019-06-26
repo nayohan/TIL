@@ -11,6 +11,8 @@
 - [ ] Machine Learning
   - [x] Introduction
   - [ ] Linear Regression with One Variable
+    - [x] Model and Cost Function
+    - [ ] Gradient Descent
   - [ ] Linear Algebra Review
   - [ ] Linear Regression wiht Multiple Variable
   - [ ] Matlab Tutorial
@@ -18,9 +20,9 @@
   
 - [ ] 자료구조
 
-  - [ ] Recursion
-  - [ ] SLL
-  - [ ] DLL
+  - [x] Recursion
+  - [x] SLL
+  - [x] DLL
 
 - [ ] 자바
 
