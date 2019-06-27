@@ -10,9 +10,9 @@
 
 - [ ] Machine Learning
   - [x] Introduction
-  - [ ] Linear Regression with One Variable
+  - [x] Linear Regression with One Variable
     - [x] Model and Cost Function
-    - [ ] Gradient Descent
+    - [x] Gradient Descent
   - [ ] Linear Algebra Review
   - [ ] Linear Regression wiht Multiple Variable
   - [ ] Matlab Tutorial
@@ -31,8 +31,8 @@
   - [x] 자바 프로그램 개발 과정
   - [x] 변수
   - [x] 기본 타입
-  - [ ] 타입 변환
-  - [ ] 변수와 시스템 입출력
+  - [x] 타입 변환
+  - [x] 변수와 시스템 입출력
 
 - [ ] 독서
 
