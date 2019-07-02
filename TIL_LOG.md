@@ -4,27 +4,57 @@
 
 
 
-### 6월 5주차(1주차)
+### 7월 1주차(2주차)
 
 계획
 
 - [ ] Machine Learning
+  - [x] 단층/ 다층 퍼셉트론
+  - [ ] n차원 다층 퍼셉트론
+  - [ ] 활성화 함수
+  - [ ] 분류기(Classifier)  / 추출기(Extractor)
+  - [ ] 오차역전파(Backpropagation)
+- [ ] 자료구조
+  - [ ] HEAP
+  - [ ] SORT(Bubble, Selection, Insertion, Quick)
+  - [ ] Hash
+- [ ] 자바
+  - [ ] 연산자
+  - [ ] 조건문 / 반복문
+  - [ ] 참조타입 / 배열 / 열거타입 
+  - [ ] 객체지향
+  - [ ] 
+- [ ] 독서
+  - [ ] 지적대화를 위한 넓고 얕은 지식
+  - [ ] 
+
+
+
+------
+
+### 6월 5주차(1주차)
+
+계획
+
+- [x] Machine Learning
   - [x] Introduction
   - [x] Linear Regression with One Variable
     - [x] Model and Cost Function
     - [x] Gradient Descent
-  - [ ] Linear Algebra Review
-  - [ ] Linear Regression wiht Multiple Variable
-  - [ ] Matlab Tutorial
-  - [ ] Linear Regression
+  - [x] Linear Algebra Review
+  - [x] Linear Regression wiht Multiple Variable
+  - [x] Matlab Tutorial
+  - [x] Linear Regression
   
-- [ ] 자료구조
+- [x] 자료구조
 
   - [x] Recursion
   - [x] SLL
   - [x] DLL
-
-- [ ] 자바
+  - [x] 스택/큐
+  - [x] BST
+  
+- [x] 자바
 
   - [x] 프로그래밍 언어와 자바
   - [x] 이클립스 개발 환경 구축
@@ -36,16 +66,14 @@
 
 - [ ] 독서
 
-  - [ ] 너의 췌장을 먹고 싶어
-- [ ] 
+  - [x] 너의 췌장을 먹고 싶어
+  - [ ] 지적대화를 위한 넓고 얕은 지식
   
   
-
-
 
 ------
 
-#### 6월 1주차 (14주차)
+### 6월 1주차 (14주차)
 
 계획
 
@@ -54,12 +82,15 @@
   - [x] 16비트 타이머
   - [x] UART
   - [x] ADC
+  
 - [ ] 임기초 9주차 강의 듣기
   
   - [ ] bus 종류 / timing / spec / 메모리 / xip / cpu / 파이프라인
+  
 - [ ] 임기초 과제
 
   - [ ] 과제4 -  허프만 Encoding ->순환
+  
 - [x] 임기초 프로젝트
 
   - [x] Win32 API 공부
@@ -89,6 +120,7 @@
       - [x] 샤프닝 필터
       - [x] (자르기)함수 연속 동작시 오류 수정
       - [x] 스크롤바 깜빡임 현상 제거 InvalidateRect(hc, NULL, FALSE);
+  
 - [ ] 선형시스템
 
   - [ ] Correlation coefficient그리기
@@ -97,17 +129,21 @@
     - [x] PCA 얼굴인식 과제
     - [ ] EVD
     - [ ] SVD
+  
 - [ ] 데이터 구조 10주차
 
   - [ ] BST기반 주소록 - 2
   - [ ] BST기반 주소록 - 3
+  
 - [ ] 데이터 구조 13주차
   - [ ] QuickSort - 구현 -2
   - [ ] 정렬알고리즘 정리 -3
   
   
 
-#### 5월 5주차 (13주차)
+------
+
+### 5월 5주차 (13주차)
 
 계획
 
