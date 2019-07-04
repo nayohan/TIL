@@ -10,20 +10,14 @@
 
 - [ ] Machine Learning
   - [x] 단층/ 다층 퍼셉트론
-  - [ ] n차원 다층 퍼셉트론
-  - [ ] 활성화 함수
+  - [x] n차원 다층 퍼셉트론
+  - [x] 활성화 함수
   - [ ] 분류기(Classifier)  / 추출기(Extractor)
   - [ ] 오차역전파(Backpropagation)
 - [ ] 자료구조
   - [ ] HEAP
   - [ ] SORT(Bubble, Selection, Insertion, Quick)
   - [ ] Hash
-- [ ] 자바
-  - [ ] 연산자
-  - [ ] 조건문 / 반복문
-  - [ ] 참조타입 / 배열 / 열거타입 
-  - [ ] 객체지향
-  - [ ] 
 - [ ] 독서
   - [ ] 지적대화를 위한 넓고 얕은 지식
   - [ ] 
