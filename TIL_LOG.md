@@ -14,6 +14,10 @@
   - [x] 활성화 함수
   - [ ] 분류기(Classifier)  / 추출기(Extractor)
   - [ ] 오차역전파(Backpropagation)
+- [x] Keras
+  - [x] Sequential 구조
+  - [x] MNIST작성 
+  - [x] 판다스 to CSV
 - [ ] 자료구조
   - [ ] HEAP
   - [ ] SORT(Bubble, Selection, Insertion, Quick)
