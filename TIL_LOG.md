@@ -18,13 +18,15 @@
   - [x] Sequential 구조
   - [x] MNIST작성 
   - [x] 판다스 to CSV
+  - [x] digit-recognizer 정확도 향상 97 -> 99%
 - [ ] 자료구조
   - [ ] HEAP
   - [ ] SORT(Bubble, Selection, Insertion, Quick)
   - [ ] Hash
+- [ ] CNC
+  - [ ] 1번 스크린 -> 이미지 보여주기
+  - [ ] 2번 스크린 -> 텍스트레이블
 - [ ] 독서
-  - [ ] 지적대화를 위한 넓고 얕은 지식
-  - [ ] 
 
 
 
