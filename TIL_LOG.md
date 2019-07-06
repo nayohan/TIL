@@ -2,7 +2,27 @@
 
 ------
 
+### 7월 2주차(3주차)
 
+계획
+
+- [ ] Keras
+  - [ ] Titanic: Machine Learning from Disaster
+  - [ ] House Prices: Advanced Regression Techniques
+- [ ] 자료구조 -> 각 기능당 15분이내 구현
+  - [ ] SLL/DLL
+  - [ ] STACK/QUEUE
+  - [ ] BST
+  - [ ] HEAP
+  - [ ] SORT
+  - [ ] HASH
+- [ ] CNC
+  - [ ] 1번 스크린 -> 도형 변화
+  - [ ] 2번 스크린 -> 함수 구현
+
+
+
+------
 
 ### 7월 1주차(2주차)
 
