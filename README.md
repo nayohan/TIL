@@ -1,5 +1,5 @@
 # TIL
-> Today I Learned
+> 1. Today I Learned
 
 
 
@@ -11,31 +11,29 @@
 
 ## 작성법
 
-- 언어별 / 주제별로 폴더를 각자 저장한다.
+1. 언어별 / 주제별로 폴더를 각자 저장한다.
 
-- 언어별의 경우 코드를 올리고, 마크다운언어로 설명을 덧대서 올린다.
+2. 언어별의 경우 코드를 올리고, 마크다운언어로 설명을 덧대서 올린다.
 
-- 프로젝트를 따로 진행하는 경우, 코드는 안올리더라도 기록을 올린다.
+3. 프로젝트를 따로 진행하는 경우, 코드는 안올리더라도 기록을 올린다.
 
-- 커밋이름은 기본 생성방식 OR [ADD],[UPDATE],[DEL] _폴더명 _파일이름 으로 올린다.
+4. 커밋이름은 기본 생성방식 OR [ADD],[UPDATE],[DEL] _폴더명 _파일이름 으로 올린다.
 
-- TIL_LOG.md에 오늘 계획/ 회고/ 내일 예정으로 나누어 올린다. (시간역순작성)
+5. TIL_LOG.md에  매주 계획/ 회고/ 내일 예정으로 나누어 올린다. (시간역순작성)
 
-  - 월은 h2, 일은 h4, 계획은 0, 내용은 들여쓰기
+    - 월은 h2, 일은 h4, 계획은 0, 내용은 들여쓰기
 
-- 매일 커밋시간은 잠자기전 할일을 정리하고, 그다음날 계획을 적어 올린다.
+6. 매일 한일을 커밋하고,  그다음날 계획을 추가해 적어 올린다.
 
-- 문서작성시 대문h1, 큰제목 h2, 작은제목 h4, 내용 0
+7. 문서작성시 대문h1, 큰제목 h2, 작은제목 h4, 내용 0
 
 
 
 ## 우선순위
 
-1. 과제
-2. 온라인 강의
-3. 교재 읽기
-4. 마크다운작성
-5. 케라스
+1. 문서 정리 및 작성
+2. 새로운것 배우기
+3. 복습
 
 
 
@@ -51,7 +49,6 @@
       2. Classification
       3. Random Forest
       4. Decision Tree
-      5. 
    3. 딥러닝
       1. TF/Keras
       2. ANN
@@ -62,12 +59,16 @@
 
 
 ## Categories
-- [Data_Structure](Algorithm)
-- [Linear_system](Linear_system)
 - [C](C)
-- [C_OnlineJudge](C_OnlineJudge)
+- [Data_Structure](Data_Structure)
+- [Kaggle](Kaggle)
 - [Keras](Keras)
-- [Quiz](Quiz)
+- [Linear_system](Linear_system)
+- [Bakjoon](Problelm_book/Bakjoon)
+- [C_OnlineJudge](Problelm_book/C_OnlineJudge)
+- [Quiz](Problelm_book/Quiz)
+
+
 
 ---
 
@@ -81,6 +82,7 @@
 - [5.DLL](Algorithm/code/5_DLL.cpp) - Doubly Linked List 
 - [6.Stack](Algorithm/code/6_Stack.cpp) -  push / pop / top
 - [7.Queue](Algorithm/code/7_Queue.cpp) -  enqueue / dequeue / front / rear
+- 
 
 ### C OnlineJudge
 
