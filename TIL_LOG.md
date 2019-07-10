@@ -1,16 +1,17 @@
 # TIL
 
-------
-
 ### 7월 2주차(3주차)
 
 계획
 
 - [ ] Keras
   - [ ] Titanic: Machine Learning from Disaster
+    - [x] pandas
+    - [ ] seaborn
+    - [x] list, tuple, dictionary
   - [ ] House Prices: Advanced Regression Techniques
 - [ ] 자료구조 -> 각 기능당 15분이내 구현
-  - [ ] SLL/DLL
+  - [x] SLL/DLL
   - [ ] STACK/QUEUE
   - [ ] BST
   - [ ] HEAP
