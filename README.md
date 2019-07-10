@@ -39,6 +39,28 @@
 
 
 
+## 해야할 로드맵
+
+1. 인공지능
+   1. 파이썬
+      1. Pandas
+      2. Seaborn
+      3. Sklearn
+   2. 머신러닝
+      1. Linear Regression
+      2. Classification
+      3. Random Forest
+      4. Decision Tree
+      5. 
+   3. 딥러닝
+      1. TF/Keras
+      2. ANN
+      3. CNN
+      4. GAN
+      5. RNN
+      6. RL
+
+
 ## Categories
 - [Data_Structure](Algorithm)
 - [Linear_system](Linear_system)
