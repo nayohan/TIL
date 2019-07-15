@@ -10,11 +10,13 @@
 
 - [ ] Python
 
-  - [ ] numpy
+  - [x] numpy
   - [ ] pandas
   - [ ] matplotlib
   - [ ] seaborn
   - [ ] sklearn
+    - [ ] classifier
+    - [ ] 
 
 - [ ] 자료구조 -> 각 기능당 15분이내 구현
 
@@ -30,8 +32,8 @@
 
 계획
 
-- [ ] Keras
-  - [ ] Titanic: Machine Learning from Disaster
+- [x] Keras
+  - [x] Titanic: Machine Learning from Disaster
     - [x] pandas
     - [x] list, tuple, dictionary
 - [ ] 자료구조 -> 각 기능당 15분이내 구현
@@ -65,9 +67,6 @@
   - [ ] HEAP
   - [ ] SORT(Bubble, Selection, Insertion, Quick)
   - [ ] Hash
-- [ ] CNC
-  - [ ] 1번 스크린 -> 이미지 보여주기
-  - [ ] 2번 스크린 -> 텍스트레이블
 - [ ] 독서
 
 
