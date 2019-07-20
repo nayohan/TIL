@@ -17,15 +17,15 @@
   - [ ] sklearn
     - [x] hyperParameter / Estimator API
     - [ ] cross validation
-    - [ ] naive bayes
-    - [ ] linear regression
+    - [x] naive bayes
+    - [x] linear regression
     - [ ] support vector machine
     - [ ] decision tree
     - [ ] random forest
-    - [ ] PCA
-    - [ ] manifold learning
+    - [x] PCA
+    - [x] manifold learning
     - [ ] k-means clustering
-    - [ ] gaussian mixture model
+    - [x] gaussian mixture model
     - [ ] kernel density estimation
 
 - [ ] 자료구조 -> 각 기능당 15분이내 구현
