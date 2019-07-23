@@ -1,8 +1,33 @@
-# TIL
+TIL
 
 
 
 ## 2019년 7월
+
+#### 7월 4주차(5주차)
+
+계획
+
+- [ ] Python
+  - [ ] sklearn
+    - [ ] naive bayes
+    - [ ] linear regression
+    - [ ] support vector machine
+    - [ ] decision tree
+    - [ ] random forest
+    - [ ] PCA
+    - [ ] manifold learning
+    - [ ] k-means clustering
+    - [ ] gaussian mixture model
+    - [ ] kernel density estimation
+- [ ] 창설
+  - [ ] 
+- [ ] 알고리즘 레벨2 5문제
+  - [ ] 
+
+
+
+------
 
 #### 7월 3주차(4주차)
 
