@@ -17,12 +17,12 @@
 
 ## 2019년 7월
 
-- [ ] 파이썬
-  - [ ] numpy 
-  - [ ] pandas
-  - [ ] matplotlib
-  - [ ] seaborn
-  - [ ] module
+- [x] 파이썬
+  - [x] numpy 
+  - [x] pandas
+  - [x] matplotlib
+  - [x] seaborn
+  - [x] module
 - [ ] 머신러닝
   - [ ] Sklearn
   - [ ] SVM
