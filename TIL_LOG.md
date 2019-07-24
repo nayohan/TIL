@@ -10,7 +10,7 @@ TIL
 
 - [ ] Python
   - [ ] sklearn
-    - [ ] naive bayes
+    - [x] naive bayes
     - [ ] linear regression
     - [ ] support vector machine
     - [ ] decision tree
@@ -21,9 +21,13 @@ TIL
     - [ ] gaussian mixture model
     - [ ] kernel density estimation
 - [ ] 창설
-  - [ ] 
+  - [x] libsora
+  - [ ] spectrum
+  - [ ] FFT
+  - [ ] STFT
+  - [ ] mel_specturm
+  - [ ] MFCC
 - [ ] 알고리즘 레벨2 5문제
-  - [ ] 
 
 
 
