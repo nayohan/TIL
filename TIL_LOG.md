@@ -21,10 +21,10 @@ TIL
     - [ ] gaussian mixture model
     - [ ] kernel density estimation
 - [ ] 창설
-  - [x] libsora
-  - [ ] spectrum
-  - [ ] FFT
-  - [ ] STFT
+  - [x] librosa
+  - [x] spectrum
+  - [x] FFT
+  - [x] STFT
   - [ ] mel_specturm
   - [ ] MFCC
 - [ ] 알고리즘 레벨2 5문제
