@@ -4,6 +4,33 @@ TIL
 
 ## 2019년 7월
 
+#### 7월 5주차(6주차)
+
+계획
+
+- [ ] Python
+  - [ ] sklearn
+    - [ ] linear regression
+    - [ ] support vector machine
+    - [ ] decision tree
+    - [ ] random forest
+    - [ ] PCA
+    - [ ] manifold learning
+    - [ ] k-means clustering
+    - [ ] gaussian mixture model
+    - [ ] kernel density estimation
+- [ ] 창설
+  - [ ] mel_specturm
+  - [ ] MFCC
+  - [ ] McLeod Algorithm
+  - [ ] Gaussian Peak picking Algorithm
+  - [ ] Catmull-rom interporlation
+- [ ] 알고리즘 레벨2 5문제
+
+
+
+------
+
 #### 7월 4주차(5주차)
 
 계획
