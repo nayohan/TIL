@@ -1,31 +1,25 @@
 # TIL
-> 1. Today I Learned
+> Today I Learned
 
+하루에 1개이상 학교에서 배운것, 따로한 공부, 개발관련 경험,  팁을 마크다운 및 각 코드파일로 저장
 
+2019년 3월 16일 시작 - 2019년 7월 31일 종료
 
-하루에 1개이상 학교에서 배운것, 따로한 공부, 개발관련 경험,  팁을 마크다운 및 각 코드파일로 저장하자.
-
-2019년 3월 16일 시작.
+2020년 2월 27일 시작 - 
 
 
 
 ## 작성법
 
 1. 언어별 / 주제별로 폴더를 각자 저장한다.
-
 2. 언어별의 경우 코드를 올리고, 마크다운언어로 설명을 덧대서 올린다.
-
 3. 프로젝트를 따로 진행하는 경우, 코드는 안올리더라도 기록을 올린다.
-
 4. 커밋이름은 기본 생성방식 OR [ADD],[UPDATE],[DEL] _폴더명 _파일이름 으로 올린다.
-
-5. TIL_LOG.md에  매주 계획/ 회고/ 내일 예정으로 나누어 올린다. (시간역순작성)
-
-    - 월은 h2, 일은 h4, 계획은 0, 내용은 들여쓰기
-
-6. 매일 한일을 커밋하고,  그다음날 계획을 추가해 적어 올린다.
-
-7. 문서작성시 대문h1, 큰제목 h2, 작은제목 h4, 내용 0
+5. ~~TIL_LOG.md에  매주 계획/ 회고/ 내일 예정으로 나누어 올린다. (시간역순작성)~~
+- ~~월은 h2, 일은 h4, 계획은 0, 내용은 들여쓰기~~
+6. ~~매일 한일을 커밋하고,  그다음날 계획을 추가해 적어 올린다.~~
+7. TIL_LOG는 Microsoft To Do로 대체하고, TIL로 전체적인 로드맵만 구성한다.
+8. 문서작성시 대문h1, 큰제목 h2, 작은제목 h4, 내용 0
 
 
 
@@ -37,40 +31,32 @@
 
 
 
+
 ## 해야할 로드맵
 
 1. 인공지능
-   1. 파이썬
-      1. Pandas
-      2. Seaborn
-      3. Sklearn
-   2. 머신러닝
-      1. Linear Regression
-      2. Classification
-      3. Random Forest
-      4. Decision Tree
-   3. 딥러닝
-      1. TF/Keras
-      2. ANN
-      3. CNN
-      4. GAN
-      5. RNN
-      6. RL
+   
+2. MacOS프로그래밍
+
+   
 
 
 ## Categories
 - [C](C)
-- [Data_Structure](Data_Structure)
-- [Kaggle](Kaggle)
-- [Keras](Keras)
-- [Linear_system](Linear_system)
-- [Bakjoon](Problelm_book/Bakjoon)
-- [C_OnlineJudge](Problelm_book/C_OnlineJudge)
-- [Quiz](Problelm_book/Quiz)
-
-
+  - [Data_Structure](C/Data_Structure)
+  - [Bakjoon](C/Problelm_book/Bakjoon)
+  - [C_OnlineJudge](C/Problelm_book/C_OnlineJudge)
+  - [Quiz](C/Problelm_book/Quiz)
+- [MATLAB](MATLAB)
+  - [Linear_system](MATLAB/Linear_system)
+- [Python](Python)
+  - [sklearn](Python/sklearn)
+  - [Keras](Python/keras)
+    - [digit-recognizer](Python/keras/digit-recognizer)
+- [MacOS](MacOS)
 
 ---
+
 
 
 ### Data Structure
@@ -112,7 +98,6 @@
 - [ANN](Keras/1_1_ANN_Classification.ipynb) - Artificial Neral Network
 - [DNN](Keras/2_1_DNN_MNIST.ipynb) - Deep Neural Network
 - [CNN](Keras/3_1_CNN_MNIST.ipynb) - Convolution Nerual Network
-- []()
 
 ### Quiz
 

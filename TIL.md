@@ -1,23 +1,30 @@
-# TIL
+TIL
 
 
 
-## 2019년 9월
+## 2020년 3월
 
+- [ ] 차량 Detection Short Paper
+- [ ] MacOS Programming
 
+## 2020년 2월
 
+- [x] YOLO
+- [x] SORT
 
+## 2020년 1월
+
+- [x] OpenCV 이해
+- [x] 차량 Detection
+- [x] Swift
 
 ## 2019년 8월
 
-- [ ] 창설
-  - [ ] 음성처리
-  - [ ] 
+- [x] 창설
+  - [x] 음성처리
 - [ ] 토익
   - [ ] 
-- [ ] Keras
-
-
+- [x] Keras
 
 ## 2019년 7월
 
