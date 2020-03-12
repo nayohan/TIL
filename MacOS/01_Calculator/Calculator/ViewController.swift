@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         }
         else {
             display.text = digit
+            
         }
         userIsInTheMiddleOfTyping = true
     }
@@ -40,6 +41,16 @@ class ViewController: UIViewController {
         set{
             display.text = String(newValue) // double -> string
         }
+    }
+    
+    var savedProgram: CalculatorBrain.PropertyList?
+    @IBAction func save() {
+        savedProgram  = brain.program
+    }
+    
+    @IBAction func restore() {
+        brain.program = savedProgram!
+        displayValue = brain.result
     }
     
     //controller가 model에 접근하는 방법, 객체를 생성후 .으로 이용
