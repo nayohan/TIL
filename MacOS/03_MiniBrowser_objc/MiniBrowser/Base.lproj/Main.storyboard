@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kaa-mm-qQe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="32"/>
+                                <segments>
+                                    <segment title="Facebook"/>
+                                    <segment title="Naver"/>
+                                    <segment title="Apple"/>
+                                    <segment title="Google"/>
+                                </segments>
+                                <connections>
+                                    <action selector="bookmarkAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="rcX-tm-4cM"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VOC-at-5hX">
+                                <rect key="frame" x="0.0" y="75" width="414" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="t56-QV-8zT"/>
+                                </connections>
+                            </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJG-BI-9T2">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="Wnq-vg-o0C">
+                                        <connections>
+                                            <action selector="backAction:" destination="BYZ-38-t0r" id="L23-pk-ZIh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Be2-1n-Boj"/>
+                                    <barButtonItem systemItem="fastForward" id="Fme-iJ-pBe">
+                                        <connections>
+                                            <action selector="forwardAction:" destination="BYZ-38-t0r" id="4l4-Gi-Nab"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3Cp-p8-b8B"/>
+                                    <barButtonItem systemItem="stop" id="Ty6-Ki-Ybu">
+                                        <connections>
+                                            <action selector="stopAction:" destination="BYZ-38-t0r" id="e1I-3s-dkF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="MJr-dh-DgX"/>
+                                    <barButtonItem systemItem="refresh" id="Qda-1L-3mK">
+                                        <connections>
+                                            <action selector="refreshAction:" destination="BYZ-38-t0r" id="RcC-c2-BUB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfI-Fh-47c">
+                                <rect key="frame" x="0.0" y="110" width="414" height="703"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="n3N-8q-bWj"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="CnY-TO-bie">
+                                <rect key="frame" x="189" y="430" width="37" height="37"/>
+                                <color key="color" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VOC-at-5hX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8zW-Mi-6ce"/>
+                            <constraint firstItem="VOC-at-5hX" firstAttribute="top" secondItem="kaa-mm-qQe" secondAttribute="bottom" id="ETe-ZL-Qla"/>
+                            <constraint firstItem="lfI-Fh-47c" firstAttribute="top" secondItem="VOC-at-5hX" secondAttribute="bottom" constant="1" id="QCe-X0-HMU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lfI-Fh-47c" secondAttribute="trailing" id="S64-u6-Aft"/>
+                            <constraint firstItem="xJG-BI-9T2" firstAttribute="top" secondItem="lfI-Fh-47c" secondAttribute="bottom" id="XSn-ZP-0oW"/>
+                            <constraint firstItem="lfI-Fh-47c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aKt-zZ-M8H"/>
+                            <constraint firstItem="CnY-TO-bie" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="b8c-B7-GYG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kaa-mm-qQe" secondAttribute="trailing" id="eF0-JB-VKe"/>
+                            <constraint firstItem="xJG-BI-9T2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="geH-6e-RdF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xJG-BI-9T2" secondAttribute="bottom" id="hVI-TX-RPn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xJG-BI-9T2" secondAttribute="trailing" id="jba-tk-Rhz"/>
+                            <constraint firstItem="kaa-mm-qQe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ldT-0M-aev"/>
+                            <constraint firstItem="CnY-TO-bie" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="otc-rN-HQq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VOC-at-5hX" secondAttribute="trailing" id="ovB-2h-6wI"/>
+                            <constraint firstItem="kaa-mm-qQe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tUI-zo-3Pg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="CnY-TO-bie" id="ko7-Eu-lL5"/>
+                        <outlet property="bookmarkSegmentedControl" destination="kaa-mm-qQe" id="r9X-On-hUB"/>
+                        <outlet property="mainWebView" destination="lfI-Fh-47c" id="9e4-C1-j8x"/>
+                        <outlet property="urlTextField" destination="VOC-at-5hX" id="fW6-f4-ZEw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
