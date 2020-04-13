@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nKi-0L-wGO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="780"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="WZ5-e2-S6j">
+                                <rect key="frame" x="-1" y="832" width="415" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x49-zw-L0y">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="확대"/>
+                                        <connections>
+                                            <action selector="btnResizeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6CQ-49-SeV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rR-Zk-edp">
+                                        <rect key="frame" x="128.5" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="켜기"/>
+                                        <connections>
+                                            <action selector="btnLampOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G9z-R0-co7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g12-ez-upV">
+                                        <rect key="frame" x="256.5" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="끄기"/>
+                                        <connections>
+                                            <action selector="btnLampOff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HOf-K5-kWb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbt-U7-BaA">
+                                        <rect key="frame" x="385" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="제거"/>
+                                        <connections>
+                                            <action selector="btnLampRemove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e1R-bs-eKv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="WZ5-e2-S6j" firstAttribute="top" secondItem="nKi-0L-wGO" secondAttribute="bottom" constant="8" symbolic="YES" id="SJH-Lt-1wq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="WZ5-e2-S6j" secondAttribute="leading" constant="1" id="ZoB-Sj-qwG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WZ5-e2-S6j" secondAttribute="bottom" id="Zw1-w6-n1N"/>
+                            <constraint firstItem="nKi-0L-wGO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jkN-H8-KKB"/>
+                            <constraint firstItem="nKi-0L-wGO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nX5-CZ-Flt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WZ5-e2-S6j" secondAttribute="trailing" id="xRY-Zv-FeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nKi-0L-wGO" secondAttribute="trailing" id="xrb-ak-1M7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnResize" destination="x49-zw-L0y" id="Tzr-ef-eik"/>
+                        <outlet property="imgView" destination="nKi-0L-wGO" id="mDC-Et-3kw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
