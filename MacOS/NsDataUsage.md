@@ -1,3 +1,5 @@
+```
+
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error
 {
     if (error)
@@ -47,6 +49,11 @@
     }
 }
 
+```
+
+
+```
+
 static inline char itoh(int i) {
     if (i > 9) return 'A' + (i - 10);
     return '0' + i;
@@ -70,3 +77,5 @@ NSString * NSDataToHex(NSData *data) {
                                         encoding:NSASCIIStringEncoding
                                     freeWhenDone:YES];
 }
+
+```
